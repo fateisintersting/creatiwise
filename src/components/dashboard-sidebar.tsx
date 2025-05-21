@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Link } from 'react-router-dom';
 import {
   Sidebar,
@@ -24,7 +24,6 @@ import {
   BarChart,
   Users
 } from "lucide-react";
-import { cn } from '@/lib/utils';
 
 export function DashboardSidebar() {
   return (

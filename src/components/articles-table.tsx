@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import  { useState } from "react";
 import {
   Table,
   TableBody,
@@ -22,7 +22,6 @@ import {
   Search 
 } from "lucide-react";
 import { Checkbox } from "@/components/ui/checkbox";
-import { Badge } from "@/components/ui/badge";
 
 // Define the article type
 type Article = {
